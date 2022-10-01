@@ -1,0 +1,207 @@
+.com-main-container{
+    margin: 50px 20px;
+}
+
+.e-popup-container-bg, .e-popup-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    background: #000;
+    z-index: 10000;
+    overflow-y: scroll
+}
+.dropdown-z{
+    z-index:10001
+}
+
+.e-popup-container{
+    z-index: 100000;
+    opacity: 1;
+    background: transparent;
+    border-radius: 3px;
+    padding-top: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.e-popup{
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+    width: 80%;
+}
+
+.e-popup-close{
+    padding: 5px 20px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.e-popup-body{
+    padding: 20px;
+}
+
+.e-icon{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.e-mt-1{
+    margin-top: 10px;
+}
+.e-mb-1{
+    margin-bottom: 10px
+}
+.e-mr-1{
+ margin-right: 10px;   
+}
+.e-ml-1{
+ margin-left: 10px;   
+}
+
+.extract-icon-btn{
+    background: #fff;
+    padding: 3px;
+}
+
+
+.e-input{
+    padding: 8px 15px;
+    background: white;
+    border: 1px solid #dddddd;
+    width: 220px;
+    border-radius: 2px;
+}
+.e-input-sm{
+    padding: 0px 15px;
+    background: #b4dd9b;
+    border: 1px solid #dddddd;
+    width: 200px;
+}
+
+.e-input:focus{
+    outline: none;
+}
+
+.e-btn{
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background: #fff;
+    cursor: pointer
+}
+
+.color-primary{
+    background: #46b42d
+}
+.text-color-primary{
+    color: #46b42d
+}
+.e-btn-primary{
+    background: #46b42d;
+    color: #fff;
+}
+
+.animation-in{
+    animation-name: animate-in;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+@keyframes animate-in{
+    0%{
+        opacity: 0;
+        transform: translateY(50px)
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(0px)
+    }
+}
+
+.grid-toolbar{
+    min-width: 1000px;
+}
+
+.react-grid-Container{
+    width: 100% !important;
+}
+
+.expand-row-class{
+    float: right;
+  float: inline-end;
+  display: table;
+  block-size: 100%;
+  
+}
+.expand-row-class > span {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .react-grid-Container .react-grid-Main .react-grid-Grid .react-grid-Canvas{
+          overflow-x: hidden !important;
+  }
+
+  .react-grid-Toolbar .tools{
+    float: left !important; z-index: 100000;
+  }
+
+  .react-grid-HeaderRow{
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    position: relative !important;
+    z-index: 100 !important;
+
+  }
+
+  .react-grid-HeaderRow{
+    min-height: auto !important;
+  }
+
+  .react-grid-Canvas{
+    width: 100% !important;
+  }
+
+  
+.react-grid-HeaderRow:nth-child(2){
+    top: 0 !important;
+}
+.react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell{
+    padding: 0 !important;
+}
+.react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .form-group, .react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell div{
+    height: 100% !important;
+}
+.react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .Select-menu-outer div{
+    height: auto !important;
+}
+.react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .Select, .react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .Select-control, .react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .Select-input{
+    height: 100% !important;
+    max-height: 100% !important;
+}
+.react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .Select-placeholder{
+display: flex;
+align-items: center;
+}
+.react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .form-group input{
+    width: 100% !important;
+    height: 100% !important;
+    font-weight: normal !important;
+    padding: 0 4px;
+}
+.react-grid-HeaderRow:nth-child(2) .react-grid-HeaderCell .Select-menu-outer{
+    height: 300px !important;
+}
+
+.expander-icon-translate{
+    transform: translateY(7px)
+}

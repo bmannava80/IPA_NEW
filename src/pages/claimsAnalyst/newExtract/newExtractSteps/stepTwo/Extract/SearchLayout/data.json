@@ -1,0 +1,22 @@
+[
+    {
+        "file_id": "ADP",
+        "file_description": "FSA-ADP"
+    },
+    {
+        "file_id": "Aerta",
+        "file_description": "FSA-Aerta"
+    },
+    {
+        "file_id": "Some Layout",
+        "file_description": "FSA-Layout"
+    },
+    {
+        "file_id": "Other Layout",
+        "file_description": "FSA-Layout-Other"
+    },
+    {
+        "file_id": "Random Layout",
+        "file_description": "FSA-Layout-Random"
+    }
+]
